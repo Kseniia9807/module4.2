@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sliderInner.style.transform = `translateX(${offsetVW}vw)`;
   }
 
-  // 🔍 Read URL parameter
+ 
   const urlParams = new URLSearchParams(window.location.search);
   const slideParam = urlParams.get('slide');
 
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     goToSlide(0);
   }
 
-  // 🔁 Toggle between slides manually
+
   if (toggleBtn) {
     toggleBtn.addEventListener('click', () => {
       if (currentIndex === 0) {
