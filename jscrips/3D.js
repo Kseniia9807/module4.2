@@ -271,7 +271,7 @@ function onModelClick(event) {
   const intersects = raycaster.intersectObjects(scenes[visibleIndex].children, true);
 
   if (intersects.length > 0) {
-    // You can refine this condition to check if the clicked object is the actual model
+ 
     window.location.href = modelLinks[visibleIndex];
   }
 }
