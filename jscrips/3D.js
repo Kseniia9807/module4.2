@@ -258,7 +258,7 @@ animate();
 window.addEventListener('click', onModelClick, false);
 
 function onModelClick(event) {
-  // Get current visible index
+  
   const visibleIndex = modelContainers.findIndex(c => c.style.display !== 'none');
   if (visibleIndex === -1) return;
 
