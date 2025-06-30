@@ -262,7 +262,7 @@ function onModelClick(event) {
   const visibleIndex = modelContainers.findIndex(c => c.style.display !== 'none');
   if (visibleIndex === -1) return;
 
-  // Adjust mouse coordinates to normalized device coordinates (-1 to +1)
+ 
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
 
