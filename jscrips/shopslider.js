@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (slideParam === '1') {
     goToSlide(1);
-    // update toggle button and UI
+  
     toggleBtn.textContent = "merch";
     toggleBtn.style.textDecoration = "underline";
     container.style.marginLeft = '85vw';
