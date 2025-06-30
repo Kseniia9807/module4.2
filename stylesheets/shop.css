@@ -1,0 +1,142 @@
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    /*margin-top: 10vw;*/
+    margin-top: 7vw;
+    margin-left: 21vw;
+    height: 25.75vw;
+    /*height: 439px;*/
+    
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4381DD;
+    font-size: 0.95vw;
+}
+.category1{
+    border: 0.1vw black solid;
+    
+    
+}
+.imgclass{
+    width: 20vw;
+}
+.disk{
+    width: 10.4vw;
+    height: 10.3vw;
+    margin-top: 6vw;
+    margin-left: 4.8vw;
+}
+.music_releases{
+    border-top: 0.1vw black solid;
+    margin-top: 5.9vw;
+    align-self: center;
+    padding-top: 1vw;
+    padding-bottom: 1.25vw;
+    padding-left: 0.5vw;
+    
+    
+}
+.category2{
+    border-top: 0.1vw black solid;
+    border-bottom: 0.1vw black solid;
+}
+.imgclass2{
+    width: 20vw;
+}
+.recorder{
+    width: 14.7vw;
+    height: 15vw;
+    margin-top: 3.6vw;
+    margin-left: 2.5vw;
+}
+.musical_instruments{
+    border-top: 0.1vw black solid;
+    padding-left: 0.5vw;
+    margin-top: 3.6vw;
+    padding-top: 1vw;
+    padding-bottom: 1.25vw;
+}
+
+.category3{
+    border: 0.1vw black solid
+}
+.imgclass3{
+    width: 20vw;
+}
+.notebook{
+    width: 11.9vw;
+    height: 15vw;
+    margin-left: 4.5vw;
+    margin-top: 3.5vw;
+}
+.other_stuff{
+    border-top: 0.1vw black solid;
+    padding-left: 0.5vw;
+    margin-top: 3.7vw;
+    padding-top: 1vw;
+    padding-bottom: 1.25vw;
+}
+.shop_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.menu, .aboutproject{
+    color: black;
+    font-size: 1.09vw;
+}
+.menu{
+    margin-left: 1vw;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color: black;
+}
+.aboutproject{
+    margin-left: 1vw;
+    color:#4381DD;
+}
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.new{
+    color:#4381DD;
+}
+.new2{
+    color:#4381DD;
+}
+.new3{
+    color:#4381DD;
+}
+

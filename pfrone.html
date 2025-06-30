@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel = "stylesheet" href="./stylesheets/pfrone.css">
+     <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+    <title>pfr</title>
+    
+</head>
+<style>
+  .model-container {
+    display: none; 
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .model-container.active {
+    display: block;
+  }
+</style>
+<body>
+    <div class="top">
+     <img class="logo" src="./img/logo.svg">
+     <div class="pfr_btn">
+     <p id = "info"><u>info</u></p>
+     <a id="menu_btn" href="index.html"><u>main</u></a>
+     </div>
+     </div>
+     <div id="infoBox" class="hidden">
+  <p id="infoText">potok field recordings (PFR) is a project focusing on 
+    recording ambient music. We think that<br> instruments that we use for recordings
+     should suit our ambitions and goals, so we decided to create<br> our own 
+     collection of music gear and our own space to make our working 
+     process more<br> convenient. Now we decided to share this project with you.</p>
+</div>
+      <div class="bottom">
+        <div class="name">Glacier</div>
+        <div class="caption"> portable, polyphonic synthesizer designed
+             for ambient<br>
+              textures and soundscapes. Features include a responsive<br>
+               keyboard, a collection of evolving pads, shimmering<br>
+                ambient textures, and granular synthesis capabilities.</div>
+     </div>
+     <div id="prevButton"><p><</p></div>
+     <div id="nextButton"><p>></p></div>
+     <div id = middle>
+       <!-- Containers for 3D models -->
+  <div id="model-container-0" class="model-container"></div>
+  <div id="model-container-1" class="model-container"></div>
+  <div id="model-container-2" class="model-container"></div>
+  <!--<div id="model-container-3" class="model-container"></div>-->
+     </div>
+    
+     <!--<script type ="module" src="./jscrips/pfrone3D.js"></script>-->
+<script src="./jscrips/info.js"></script>
+<script type="module" src="./jscrips/3D.js"></script>
+
+</body>
+</html>

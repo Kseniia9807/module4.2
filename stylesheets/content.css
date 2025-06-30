@@ -1,0 +1,226 @@
+.screen1{
+    display: flex;
+    flex-direction: row;
+}
+.leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+.manifesto{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4381DD;
+    font-size: 1.09vw;
+    width: 37vw;
+    margin-left: 2vw;
+    line-height: normal;
+}
+.art_title{
+margin-top: 3vw;
+}
+.first_paragraph{
+    margin-top: 1vw;
+}
+.third_paragraph{
+    margin-top: 1.5vw;
+}
+.learn_more{
+    margin-top: 8vw;
+}
+.further, .main{
+    color:#4381DD;
+}
+.index_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    /*margin-top: 13vw;*/
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.menu, .aboutproject{
+    color: black;
+    font-size: 1.09vw;
+}
+.menu{
+    margin-left: 1vw;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.aboutproject{
+    margin-left: 1vw;
+}
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.separate{
+    height: 49vw;
+    width: 0.07vw;
+    background-color: black;
+    margin-top: 3vw;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+  margin-top: 15vw;
+}
+.level1{
+    font-size: 0.95vw;
+    margin-left: 22vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4381DD;
+}
+.line1{
+    width: 0.1vw;
+    height: 2.5vw;
+    background-color: black;
+    margin-left: 23.2vw;
+    margin-top: 0.7vw;
+    
+}
+.line2{
+    width: 20vw;
+    height: 0.12vw;
+    background-color: black;
+    margin-left: 13.2vw;
+    
+}
+.line3456{
+    display: flex;
+    flex-direction: row;
+}
+.line3, .line4, .line5, .line6{
+    background-color: black;
+    height: 2.5vw;
+    width: 0.1vw;
+    
+
+}
+.line3{
+  margin-left: 13.2vw;  
+}
+.line4{
+   margin-left: 6.54vw; 
+}
+.line5{
+   margin-left: 6.54vw; 
+}
+.line6{
+   margin-left: 6.54vw; 
+}
+.level2{
+   margin-left: 12vw; 
+   margin-top: 0.5vw;
+}
+.tracks{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-size: 0.95vw;
+}
+.shop{
+    margin-left: 4.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 0.95vw;
+}
+.events{
+    margin-left: 3.8vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 0.95vw;
+}
+.pfr{
+    margin-left: 4.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 0.95vw;
+}
+.level3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.line7, .line8{
+    width: 0.1vw;
+    height: 2.5vw;
+    background-color: black;
+    
+}
+.line7{
+   margin-left: 20vw;
+}
+.line8{
+    margin-left: 6.54vw;
+}
+.level4{
+    display: flex;
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 18vw;
+    color: #A7A4A4;
+    margin-top: 1vw;
+    font-size: 0.95vw;
+}
+.eventi{
+    margin-left: 2.5vw;
+}
+.level5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20vw;
+   margin-top: 1vw;
+}
+.line9{
+    height: 2.5vw;
+    width: 0.1vw;
+    background-color:#A7A4A4;
+}
+.line10{
+    height: 2.5vw;
+    width: 0.1vw;
+    background-color:#A7A4A4;
+    margin-left: 6.54vw;
+}
+.level6{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    color:#A7A4A4;
+    margin-left: 18vw;
+    margin-top: 1vw;
+    font-size: 0.95vw;
+}
+.payment2{
+margin-left: 3vw;
+}

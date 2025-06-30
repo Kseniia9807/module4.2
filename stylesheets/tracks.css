@@ -1,0 +1,100 @@
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+.archive{
+    display: flex;
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+    margin-top: 5vw;
+    margin-left: 19vw;
+    gap: 6vw;
+    
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+}
+.alpha, .beta, .gamma, .theta, .delta{
+    margin-bottom: 0.5vw;
+}
+.player{
+    margin-left: 12vw;
+    margin-top: 5.1vw;
+}
+.cover{
+    width: 13vw;
+}
+.container{
+    width: 13vw;
+    height: 0.8vw;
+    background-color: #D1D1D1;
+    margin-top: 2vw;
+    margin-left: 0.1vw;
+
+}
+.play{
+    width: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 6.5vw;
+}
+
+.tracks_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main2{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color: black;
+}
+
+.track{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color:#4381DD;
+}
+
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.run{
+    background-color:#4381DD;
+    
+}
+

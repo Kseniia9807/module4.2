@@ -1,0 +1,177 @@
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+}
+#calendar{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: #4381DD;
+    line-height: 2vw;
+    width: 40vw;
+    justify-content: space-between;
+    margin-left: 32vw;
+    margin-top: 6vw;
+}
+td{
+    text-align: center;
+}
+
+ td {
+  padding-top: 1vw;
+ 
+
+  
+}
+#name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: #4381DD;
+text-align: center;
+margin-top: 1vw;
+margin-left: 2vw;
+
+}
+.events_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.menu, .aboutproject{
+    color: black;
+    font-size: 1.09vw;
+}
+.menu{
+    margin-left: 1vw;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color: black;
+}
+.events{
+    margin-left: 1vw;
+    color:#4381DD;
+    text-decoration: none;
+}
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve{
+display: none;
+
+}
+.small{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+   left: 32vw;
+    top: 18vw;
+}
+.small2{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+    top: 18vw;
+    left: 54.5vw;
+  
+}
+.small3{
+    width: 3vw;
+    position: absolute;
+    top: 21vw;
+    left: 43.2vw;
+  
+}
+.small4{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+    top: 21vw;
+    left: 57vw;
+  
+}
+.small5{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+    top: 21vw;
+    left: 37.5vw;
+  
+}
+.small6{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+    top: 24vw;
+    left: 35vw;
+  
+}
+.small7{
+    width: 3vw;
+    border: 0.5px black solid;
+    position: absolute;
+    top: 29.7vw;
+    left: 37.5vw;
+  
+}
+
+.small8{
+    width: 3vw;
+    position: absolute;
+    top: 29.7vw;
+    left: 65.5vw;
+  
+}
+.small9{
+    width: 3vw;
+    position: absolute;
+    top: 29.7vw;
+    left: 54vw;
+    border: 0.5px black solid;
+}
+.small10{
+    width: 3vw;
+    position: absolute;
+    top: 33vw;
+    left: 34.5vw;
+    border: 0.5px black solid;
+}
+.small11{
+      width: 3vw;
+    position: absolute;
+    top: 33vw;
+    left: 59.7vw;
+    border: 0.5px black solid;
+}
+.small12{
+      width: 3vw;
+    position: absolute;
+    top: 36vw;
+    left: 32vw;
+    border: 0.5px black solid;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: #F5F5F5;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.pfr_btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.95vw;
+}
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+#menu_btn{
+    margin-left: 1vw;
+    color: black;
+    
+}
+#menu_btn:hover{
+    color:#4381DD;
+}
+#info{
+   margin-left: 76vw;
+   cursor: pointer;
+}
+#info:hover{
+    
+    color:#4381DD;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45vw;
+    position: fixed;
+    justify-content: space-between;
+    width: 96vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.name{
+    font-size: 7.5vw;
+    margin-left: 2vw;
+}
+
+.caption{
+    font-size:1vw;
+    margin-top: 3vw;
+     position: relative;
+}
+#prevButton{
+    position: fixed;
+    top: 25vw;
+    left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+#nextButton{
+    position: fixed;
+    top: 25vw;
+    left: 92vw;
+    font-size: 2vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#infoBox {
+  position: absolute;
+  top: 2vw;
+  font-family:Arial, Helvetica, sans-serif;
+  left: 30vw;
+  width: 60vw;
+  color:#4381DD;
+  font-size: 1vw;
+  display: none; 
+  transition: all 0.3s ease;
+}
+
+#infoBox.visible {
+  display: block;
+}

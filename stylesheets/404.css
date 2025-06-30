@@ -1,0 +1,129 @@
+Body{
+    position: relative;
+}
+.logo{
+    width: 13vw;
+    height: auto;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.error{
+    font-size: 2vw;
+    margin-bottom: 0.7vw;
+}
+.found, .text{
+    font-size: 1vw;
+}
+u{
+   
+    color:#4381DD;
+}
+a{
+     text-decoration: none;
+}
+.all{
+    margin-left: 42vw;
+    margin-top: 15vw;
+}
+.found{
+    margin-bottom: 1vw;
+}
+.error_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.menu, .aboutproject{
+    color: black;
+    font-size: 1.09vw;
+}
+.menu{
+    margin-left: 1vw;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color: black;
+}
+.errorn{
+    margin-left: 1vw;
+    color:#4381DD;
+    text-decoration: none;
+}
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5, .rec6, .rec7, .rec8, 
+.rec9, .rec10{
+  position: absolute;
+  width: 14vw;
+  height: 14px; 
+  background-color: black; 
+}
+.rec1{
+    top: 17vw;
+    left: 32vw;
+}
+.rec2{
+    top: 17vw;
+    left: 70vw;
+}
+.rec3{
+    top: 24vw;
+    left: 20vw;
+}
+.rec4{
+    top: 24.8vw;
+    left: 17vw;
+}
+.rec5{
+    top: 29vw;
+    left: 5vw;
+}
+.rec6{
+    top: 37vw;
+    left: 18vw;
+}
+.rec7{
+    top: 37.7vw;
+    left: 11vw;
+}
+.rec8{
+    top: 38.5vw;
+    left: 19.5vw;
+}
+.rec9{
+    top: 42vw;
+    left: 75vw;
+}
+.rec10{
+    top: 42.7vw;
+    left: 65vw;
+}

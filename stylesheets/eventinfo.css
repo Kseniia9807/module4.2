@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: row;
+    
+   
+
+
+}
+.logo{
+    width: 13vw;
+    height: auto;;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+
+}
+article{
+    font-family: Arial;
+    font-size: 0.95vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+    line-height: 1.2vw;
+}
+.join{
+    margin-top: 2vw;
+}
+.count{
+    color: #4381DD;
+    cursor: pointer;
+}
+.rightside{
+   margin-left: 16vw;
+   margin-top: 7vw;
+}
+.poster1{
+  width: 21vw;
+  
+}
+.poster2{
+    width: 21vw;
+    margin-left: 2vw;
+}
+.info_navigation{
+    display: flex;
+    flex-direction: row;
+    font-size: 18.9px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50vw;
+}
+.fig_1{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;
+    border-right: 0.15vw black solid;
+    border-top: 0.15vw black solid;
+    border-bottom: 0.15vw black solid;
+}
+.fig_2{
+    width: 2vw;
+    height: 0.15vw;
+    margin-top: 0.65vw;
+    background-color: black;
+}
+.main{
+    color: black;
+    font-size: 1.09vw;
+}
+.menu{
+    margin-left: 1vw;
+}
+.arrow{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+}
+.main{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    color: black;
+}
+.event_info{
+    margin-left: 1vw;
+    color:#4381DD;
+    text-decoration: none;
+}
+.points{
+    margin-left: 1vw;
+    font-size: 1.09vw;
+    text-decoration: none;
+    color: black;
+}
