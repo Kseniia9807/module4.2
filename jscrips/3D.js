@@ -211,11 +211,11 @@ function updateText(index) {
   nameElement.textContent = name;
   captionElement.textContent = caption;
 
-  // Apply dynamic margin-left
+ 
   if (style && style.marginLeft) {
     captionElement.style.marginLeft = style.marginLeft;
   } else {
-    // Reset in case the next model doesn't have marginLeft
+   
     captionElement.style.marginLeft = '';
   }
 }
